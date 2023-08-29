@@ -1,7 +1,7 @@
 package main
 import "testing"
 
-func SomaTest(t *testing.T) {
+func TestSoma(t *testing.T) {
 	totalSum := Soma(10, 10)
 
 	if totalSum != 25 {
